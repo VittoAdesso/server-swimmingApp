@@ -36,7 +36,7 @@ app.use('/api', back);
 app.use('/api', butterfly);
 app.use('/api', frog);
 
-// Define port or used 5000
+// Define port
 // const port = process.env.PORT || 5200; // without heroku 
 const port = process.env.PORT; // to heroku
 const server = app.listen(port, () => {
